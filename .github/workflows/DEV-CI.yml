@@ -4,5 +4,5 @@ on: push
 
 jobs:
 
-  my-job1:
-  uses: helloworld.yml
+  Dev-CI:
+   uses: ./.github/workflows/helloworld.yml
