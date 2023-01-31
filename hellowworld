@@ -1,8 +1,9 @@
 name: hello-world
 
-on: push
+on: 
+ workflow_call:
 
-jobs:
+ jobs:
 
   my-job:
 
