@@ -1,1 +1,8 @@
-
+name: DEV-CI
+on:  
+  push:   
+    branches:
+     - main  # restrict actions on pull requests to only run when created against the master branch 
+jobs:  
+  call-CICD-template:
+    uses: ./.github/workflows/DEV-CI.yml
