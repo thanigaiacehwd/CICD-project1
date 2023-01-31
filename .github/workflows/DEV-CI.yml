@@ -1,9 +1,9 @@
-name: DEV-CI
+name: hello-world
 
 on: 
  workflow_call
 
 jobs:
 
-  Dev-CI:
+  my-job:
    uses: ./.github/workflows/helloworld.yml
