@@ -1,7 +1,8 @@
-name: Import CICD tempalte
+name: Build & Release App
+
 on:
   push:
 
 jobs:
   build:
-    uses: ./CICD-template/.github/workflows/DEV-CI.yml
+    uses: CICD-template/.github/workflows/DEV-CI.yml@v1
