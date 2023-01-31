@@ -6,7 +6,7 @@ jobs:
 
   my-job:
 
-    runs-on: [self-hosted, Windows, x64, DEV]
+    runs-on: ubuntu-latest
 
     steps:
 
